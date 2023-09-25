@@ -1,0 +1,55 @@
+* {
+    background-color: var(--grey);
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --background-color: #fffcf2;
+    --black: #252422;
+    --orange: #eb5e28;
+    --dark-grey: #403d39;
+    --grey: #ccc5b9;
+}
+
+.BradyLange {
+    font-size: 40px;
+    color: var(--orange);
+    background-image: url(./images/header.jpg);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-image: url(./images/header.jpg);
+}
+
+.navBar {
+    background-image: url(./images/header.jpg);
+}
+
+.navA {
+    background-image: url(./images/header.jpg);
+    font-size: 20px;
+    margin-left: 20px;
+    color: var(--orange);
+}
+
+.pageHeader {
+    font-size: 40px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.aboutMeText {
+    font-size: 20px;
+}
+
+main {
+    color: var(--black);
+    padding: 20px;
+}
+
