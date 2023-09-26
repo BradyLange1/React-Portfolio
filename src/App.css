@@ -1,8 +1,7 @@
 * {
-    background-color: var(--grey);
     margin: 0;
     padding: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 :root {
@@ -16,7 +15,6 @@
 .BradyLange {
     font-size: 40px;
     color: var(--orange);
-    background-image: url(./images/header.jpg);
 }
 
 .header {
@@ -26,30 +24,200 @@
     background-image: url(./images/header.jpg);
 }
 
-.navBar {
-    background-image: url(./images/header.jpg);
+.navTabs {
+    display: flex;
+    list-style: none;
 }
 
-.navA {
-    background-image: url(./images/header.jpg);
-    font-size: 20px;
+.navItem {
+    font-size: 30px;
     margin-left: 20px;
+}
+
+.navLink {
+    box-shadow: inset 0 0 0 0 var(--orange);
     color: var(--orange);
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    text-decoration: none;
+}
+
+.navLink:hover {
+    box-shadow: inset 150px 0 0 0 var(--orange);
+    color: var(--grey);
+}
+
+.active {
+    color: var(--grey);
+}
+
+.pageHeaderBox {
+    align-self: center;
+    width: 500px;
 }
 
 .pageHeader {
-    font-size: 40px;
+    font-size: 50px;
+    color: var(--black);
+    margin: 40px 0px 40px 0px;
+    background-color: var(--orange);
+    padding: 20px;
+    box-shadow: 10px 10px;
     text-align: center;
-    color: var(--black);
-    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
-.aboutMeText {
-    font-size: 20px;
-}
-
-main {
-    color: var(--black);
+.aboutMeBody {
+    display: flex;
+    position: relative;
+    align-self: center;
+    top: 100px;
+    width: 75%;
+    border: 10px black solid;
+    border-radius: 10px;
     padding: 20px;
 }
 
+.aboutMeText {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.boyWaving {
+    width: 400px;
+}
+
+.projectCard {
+    margin: 0px 20px;
+    transition: .3s ease;
+}
+
+.projectImage {
+    width: 400px;
+    box-shadow: 10px 10px;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+
+.projectName {
+    font-size: 30px;
+    position: relative;
+    bottom: 385px;
+    width: 400px;
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.projectLinks {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectLinkURL {
+    position: relative;
+    bottom: 275px;
+}
+
+.projectLinkURL img {
+    width: 75px;
+    border-radius: 100px;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.projectLinkGitHub {
+    position: relative;
+    bottom: 275px;
+}
+
+.projectLinkGitHub img {
+    width: 75px;
+    border-radius: 100px;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.projectLinkURL img:hover {
+    border-radius: 0px;
+    transition: .3s ease;
+}
+
+.projectLinkGitHub img:hover {
+    border-radius: 0px;
+    transition: .3s ease;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 100px;
+    justify-content: center;
+}
+
+.projectCard:hover .projectImage{
+    opacity: .3;
+    transition: .5s ease;
+}
+
+.projectCard:hover .projectName{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.projectCard:hover .projectLinkGitHub img{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.projectCard:hover .projectLinkURL img{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.skillsBox {
+    align-self: center;
+    border: 5px black solid;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.skillsHeader {
+    font-size: 30px;
+}
+
+.skills {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: var(--grey);
+    color: var(--black);
+}
+
+.footer {
+    background-color: var(--grey);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerImg {
+    border-radius: 100px;
+    width: 100px;
+    transition: .3s ease;
+}
+
+.footerImg:hover {
+    border-radius: 0px;
+    transition: .3s ease;
+}
