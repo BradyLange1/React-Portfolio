@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    background-image: url(./assets/header.jpg);
+    background-image: url(/public/assets/header.jpg);
 }
 
 .navTabs {
