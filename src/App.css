@@ -89,6 +89,23 @@
     width: 400px;
 }
 
+.formBox {
+    align-self: center;
+}
+
+.form input, textarea {
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.form button {
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
 .projectCard {
     margin: 0px 20px;
     transition: .3s ease;
