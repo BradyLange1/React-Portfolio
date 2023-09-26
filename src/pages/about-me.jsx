@@ -8,7 +8,7 @@ export default function AboutMe() {
       </div>
       <div className="aboutMeBody">
         <img
-          src="src\images\boy-icon.png"
+          src="src\assets\boy-icon.png"
           alt="boy-waving"
           className="boyWaving"
         />
