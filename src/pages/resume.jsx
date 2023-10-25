@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <>
       <div className="pageHeaderBox">
-        <h2 className="pageHeader">My Resume &#128195; <a href="#">Download</a></h2>
+        <h2 className="pageHeader">My Resume &#128195; <a href="https://docs.google.com/document/d/13JMYEsBj7KHbcbTri2OWcVMOxmSfOGC1INbPiFxbN8w/edit">Link</a></h2>
       </div>
       <div className="skillsBox">
         <h2 className="skillsHeader">Front-End Proficiencies</h2>
