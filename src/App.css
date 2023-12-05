@@ -89,6 +89,10 @@
     width: 400px;
 }
 
+.exampleForm {
+    align-self: center;
+}
+
 .formBox {
     align-self: center;
 }

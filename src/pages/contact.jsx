@@ -66,6 +66,9 @@ export default function Contact() {
       <div className="pageHeaderBox">
         <h2 className="pageHeader">Contact Me &#128172;</h2>
       </div>
+      <div className="exampleForm">
+        Example form. Email me <a href="mailto: bradylange99@gmail.com">here</a>
+      </div>
       <div className="formBox">
         <form className="form" onSubmit={handleFormSubmit}>
           <h2 className="formHeaders">Name:</h2>
