@@ -110,13 +110,18 @@
     margin-left: 10px;
 }
 
+.projects {
+    width: 1200px;
+    align-self: center;
+}
+
 .projectCard {
     margin: 0px 20px;
     transition: .3s ease;
 }
 
 .projectImage {
-    width: 400px;
+    width: 300px;
     box-shadow: 10px 10px;
     border-radius: 10px;
     transition: .5s ease;
@@ -125,22 +130,22 @@
 .projectName {
     font-size: 30px;
     position: relative;
-    bottom: 385px;
-    width: 400px;
+    bottom: 280px;
+    width: 300px;
     text-align: center;
     opacity: 0;
     transition: .5s ease;
 }
 
 .projectLinks {
-    width: 400px;
+    width: 300px;
     display: flex;
     justify-content: space-around;
 }
 
 .projectLinkURL {
     position: relative;
-    bottom: 275px;
+    bottom: 150px;
 }
 
 .projectLinkURL img {
@@ -152,7 +157,7 @@
 
 .projectLinkGitHub {
     position: relative;
-    bottom: 275px;
+    bottom: 150px;
 }
 
 .projectLinkGitHub img {
